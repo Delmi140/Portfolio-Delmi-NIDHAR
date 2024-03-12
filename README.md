@@ -1,10 +1,9 @@
 # Portfolio Delmi NIDHAR
 
 
-
 ## Prérequis du projet
 
-C’est un projet qui consiste à la création d’un portfolio en ligne (qui m’a été demander par mon école de formation ) 
+C’est un projet qui consiste à mettre en place mon portfolio en ligne (qui m’a été demander par mon école de formation) 
 
 ## Langages utilisés ? ( instructions d'installation)
 
