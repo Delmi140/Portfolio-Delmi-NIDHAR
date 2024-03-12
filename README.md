@@ -14,4 +14,4 @@ C’est un projet qui consiste à la création d’un portfolio en ligne (qui m�
 
 ## Responsive ? ( Lancement )
 
-On peut récupère les dossiers du projet Github c’est un projet public 
+On peut récupère les dossiers du projet sur Github c’est un projet public 
