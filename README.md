@@ -2,7 +2,7 @@
 
 
 
-## prérequis du projet
+## Prérequis du projet
 
 C’est un projet qui consiste à la création d’un portfolio en ligne (qui m’a été demander par mon école de formation ) 
 
