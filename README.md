@@ -3,7 +3,7 @@
 
 ## Prérequis du projet
 
-C’est un projet qui consiste à mettre en place mon portfolio en ligne (qui m’a été demander par mon école de formation) 
+Acquisition des bases du développement Web (front end)
 
 ## Langages utilisés ? ( instructions d'installation)
 
@@ -11,6 +11,6 @@ C’est un projet qui consiste à mettre en place mon portfolio en ligne (qui m�
 + JavaScript
 
 
-## Responsive ? ( Lancement )
+##  Lancement 
 
-On peut récupère les dossiers du projet sur Github c’est un projet public 
+On peut récupèrer les dossiers du projet sur Github, c’est un projet public. 
