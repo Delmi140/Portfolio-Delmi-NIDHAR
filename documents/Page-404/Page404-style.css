@@ -1,0 +1,67 @@
+/*Header*/
+
+.image-header{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Navigateur{
+    
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.p-header{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-error{
+    height: 1000px;
+    width: 1000px;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-image: url(./documents-Page-404/image-Page-404/Fond\ ecran\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.liens-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+.p-footer{
+    margin-top: 0px;
+    padding-top: 50px;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+.p-mise-a-jour-footer{
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+
+
+

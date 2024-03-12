@@ -1,0 +1,756 @@
+/*modal-cv*/
+
+.modal-btn-cv{
+    padding: 10px 14px;
+    font-size: 18px;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.modal-container-cv{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-container-cv.active-cv{
+    display: block;
+}
+
+.overlay-cv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+
+
+}
+
+.modal-cv{
+    width: 95%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+
+}
+
+.close-modal-cv{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #ff365e;
+    color: #fff;
+
+}
+.h2-modal-cv{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+
+.p-date-modal-cv{
+    text-align: center;
+}
+
+.p-tech-modal-cv{
+    text-align: center;
+}
+
+.p-liensite-modal-cv{
+    text-align: center;
+}
+.p-liengit-modal-cv{
+    text-align: center;
+}
+
+.image-cv-en-ligne-modal{
+    height: 250px;
+    width: 200px;
+   
+}
+.p-image-cv-en-ligne{
+    text-align: center;
+}
+/*modal-cahier des charges de la socketterie*/
+
+.modal-btn-cc{
+    padding: 10px 14px;
+    font-size: 18px;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.modal-container-cc{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-container-cc.active-cc{
+    display: block;
+}
+
+.overlay-cc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+}
+
+.modal-cc{
+    width: 95%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.close-modal-cc{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #ff365e;
+    color: #fff;
+}
+
+.h2-modal-cc{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+
+.p-date-modal-cc{
+    text-align: center;
+}
+.p-tech-modal-cc{
+    text-align: center;
+}
+.p-liensite-modal-cc{
+    text-align: center;
+}
+
+.image-cahier-des-charges-modal{
+    height: 300px;
+    width: 200px;
+    
+}
+
+.p-image-cahier-des-charges-modal{
+    text-align: center;
+}
+
+/*modal-Dynamiser un espace de commentaire*/
+
+.modal-btn-dec{
+    padding: 10px 14px;
+    font-size: 18px;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.modal-container-dec{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-container-dec.active-dec{
+    display: block;
+}
+
+.overlay-dec{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+}
+
+.modal-dec{
+    width: 95%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.close-modal-dec{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: #ff365e;
+    color: #fff;
+}
+
+.h2-modal-dec{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.p-date-modal-dec{
+    text-align: center;
+}
+.p-tech-modal-dec{
+    text-align: center;
+}
+.p-liensite-modal-dec{
+    text-align: center;
+}
+.p-liengit-modal-dec{
+    text-align: center;
+}
+
+.image-dynamiser-commentaires-modal{
+    height: 300px;
+    width: 200px;
+    border: 1px solid;
+    
+}
+
+.p-image-commentaires-modal{
+    text-align: center;
+}
+/*Header*/
+
+.image-header{
+    height: 70px;
+    width: 70px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.Navigateur{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p-header{
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Présentation*/
+
+.Présentation{
+    background-image: url(./documents/images/photo-presentation3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    padding-top: 100px;
+   
+
+}
+
+h1{
+    color: white;
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: white;
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Moi*/
+
+.Moi{
+    background-image: url(./documents/images/font\ ercran\ 9.jpg);
+    background-size: cover;
+    
+}
+
+
+.h2-moi{
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contenent-moi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-moi{
+    height: 650px;
+    width: 500px;
+    margin-bottom: 20px;
+    border: 3px black solid;
+}
+
+.p-moi{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 59px;
+    padding-top: 20px;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: 3px black solid;
+    padding-bottom: 20px;
+}
+
+/*Actuellement1*/
+
+.Actuellement1{
+    text-align: center;
+    background-image: url(./documents/images/photo-presentation3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    padding-top: 100px;
+}
+.h2-Actuellement1{
+    margin-top: 0px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.h3-Actuellement1{
+    color: #fff;
+}
+
+/*Competences*/
+
+.competences{
+    background-image: url(./documents/images/font\ ercran\ 9.jpg);
+    background-size: cover;
+}
+
+.h2-competences{
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p-competences{
+    text-align: center;
+    
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+
+.competences-developpeur{
+    height: 700px;
+    width: 500px;
+    
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.image-cv-contenent{
+    height: 700px;
+    width: 500px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.image-cv{
+    height: 500px;
+    width: 400px;
+    border: 1px solid;
+}
+.competences-contenent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h5-html{
+    height: 70px;
+    width: 300px;
+    border: 1px solid;
+    padding-top: 10px;
+    background-color: aqua;
+    border-right-width: 50px;
+    border-color: brown;
+    margin-left: 50px;
+}
+
+.h5-css{
+    height: 70px;
+    width: 290px;
+    border: 1px solid;
+    padding-top: 10px;
+    background-color: aqua;
+    border-right-width: 60px;
+    border-color: brown;
+    margin-left: 50px;
+}
+
+.h5-javascript{
+    height: 70px;
+    width: 280px;
+    border: 1px solid;
+    padding-top: 10px;
+    background-color: aqua;
+    border-right-width: 70px;
+    border-color: brown;
+    margin-left: 50px;
+}
+
+
+.h5-windows{
+    height: 70px;
+    width: 320px;
+    border: 1px solid;
+    padding-top: 10px;
+    background-color: aqua;
+    border-right-width: 30px;
+    border-color: brown;
+    margin-left: 50px;
+}
+
+.h5-mac-os{
+    height: 70px;
+    width: 320px;
+    border: 1px solid;
+    padding-top: 10px;
+    background-color: aqua;
+    border-right-width: 30px;
+    border-color: brown;
+    margin-left: 50px;
+    
+}
+
+.h3-front-end{
+    text-align: center;
+}
+
+.h3-divers{
+    text-align: center;
+}
+
+.h4-competences{
+    padding-left: 50px;
+}
+
+.btn-telecharger-cv{
+    padding: 10px 14px;
+    font-size: 18px;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+
+/*Actuellement2*/
+
+.Actuellement2{
+    text-align: center;
+    background-image: url(./documents/images/photo-presentation3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    padding-top: 100px;
+}
+.h2-Actuellement2{
+    margin-top: 0px;
+    padding-top: 20px;
+    color: #fff;
+}
+.h3-Actuellement2{
+    color: #fff;
+}
+
+
+/*Portfolio*/
+.portfolio{
+    background-image: url(./documents/images/font\ ercran\ 9.jpg);
+    background-size: cover;
+}
+
+.h2-Portfolio{
+    color: black;
+    text-align: center;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.p-portfolio{
+    text-align: center;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+
+.contenent-portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contenent-cv-en-ligne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    background-color: #fff;
+    height: 700px;
+    width: 500px;
+}
+
+.contenent-cahier-des-charges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    background-color: #fff;
+    height: 700px;
+    width: 500px;
+}
+
+.contenent-dynamiser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    background-color: #fff;
+    height: 700px;
+    width: 500px;
+}
+
+.image-cv-en-ligne{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+}
+
+.image-cv-en-ligne:hover{
+    box-shadow: 6px 6px 3px blue;
+}
+
+.image-cahier-des-charges{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+}
+
+.image-cahier-des-charges:hover{
+    box-shadow: 6px 6px 3px blue;
+}
+
+.image-dynamiser{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+}
+
+.image-dynamiser:hover{
+    box-shadow: 6px 6px 3px blue;
+}
+
+.h3-cv-en-ligne{
+    color: blue;
+}
+
+.h3-cahier-des-charges{
+    color: blue;
+}
+
+.h3-dynamiser-un-espace{
+    color: blue;
+}
+
+/*Contactez-moi*/
+
+.h2-contact{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p-contact{
+    text-align: center;
+    color: white;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.contenent-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+
+.formulaire-coordonnees{
+    height: 700px;
+    width: 500px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.h4-Prénom{
+    text-align: center;
+    color: white;
+}
+
+.contenent-mes-coordonnées{
+    height: 700px;
+    width: 500px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contact{
+    background-image: url(./documents/images/photo-presentation3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.p-adresse{
+    color: white;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.h3-coordonnées{
+    color: white;
+}
+
+.btn-envoyer{
+    padding: 10px 14px;
+    font-size: 18px;
+    display: block;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.texte-message{
+    padding: 40px 14px;
+    font-size: 18px;
+    
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-image: url(./documents/images/Fond\ ecran\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.liens-footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+.p-footer{
+    margin-top: 0px;
+    padding-top: 50px;
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+.p-mise-a-jour-footer{
+    text-shadow:0 0 3px white;
+    font-weight:bold;
+}
+
