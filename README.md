@@ -2,9 +2,9 @@
 
 
 
-
 ## prérequis du projet
 
+C’est un projet qui consiste à la création d’un portfolio en ligne (qui m’a été demander par mon école de formation ) 
 
 ## Langages utilisés ? ( instructions d'installation)
 
@@ -12,8 +12,6 @@
 + JavaScript
 
 
-
-
 ## Responsive ? ( Lancement )
 
-
+On peut récupère les dossiers du projet Github c’est un projet public 
